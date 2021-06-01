@@ -1,5 +1,3 @@
-console.log("welcome");
-
 const getPuzzle = () => {
   fetch("http://puzzle.mead.io/puzzle").then((response) => {
     response.json().then((data) => {

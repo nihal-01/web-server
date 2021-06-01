@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="/images/icon.png">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  {{>header}}
+  
+  <form onsubmit="getForecast(event)">
+    <input type="text" placeholder="Enter a place" name='address'>
+    <button>search</button>
+  </form>
+
+  <p id="message-1"></p>
+  <p id="message-2"></p>
+
+  {{!-- <button onClick={getPuzzle()}>Get puzzle</button> --}}
+  <p>This is footer</p>
+
+  <script src="js/fetch.js"></script>
+</body>
+</html>
